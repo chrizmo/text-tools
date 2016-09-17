@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle text-tools",
+        "command": "text-tools:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Text Tools",
+          "submenu": [
+            {
+              "label" : "Numbered List",
+              "command" : "text-tools:Convert to numbered list"
+            },
+            {
+              "label" : "Unnumbered List",
+              "command" : "text-tools:Convert to unnumbered list"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

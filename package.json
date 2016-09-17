@@ -1,0 +1,15 @@
+{
+  "name": "text-tools",
+  "main": "./lib/text-tools",
+  "version": "0.1.0",
+  "description": "A set of helpful text tools to simplify common and annoying tasks when writing.",
+  "keywords": [
+  ],
+  "repository": "https://github.com/chrizmo/text-tools",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
